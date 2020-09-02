@@ -10,6 +10,7 @@
   --main-red:#be3144;
   --main-blue: #45567d;
   --main-gray: #303841;
+  --mian-pink: rgb(235, 39, 170)173, 59, 59);
 }
 
 *.
@@ -157,7 +158,7 @@ img{
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  margin-bottom: 6rem;
+  /* margin-bottom: 6rem; */
 }
 
 @media (max-width: 30.625em) {
@@ -204,8 +205,8 @@ img{
   align-items: center;
   text-align: center;
   width: 100%;
-  height: 80vh;
-  padding: 0 2rem;
+  height: 90vh;
+  padding: 0, 2rem;
   background: var(--main-gray);
 }
 
@@ -234,4 +235,13 @@ img{
 
 .contact-details:hover {
   transform: translateY(8px);
+}
+
+footer {
+  font-weight: 300;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  background: var(--main-gray);
+  border-top: 4px solid var(--main-red);
 }
