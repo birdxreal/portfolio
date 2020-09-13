@@ -74,7 +74,7 @@ ul{
 a{
   text-decoration: none;
   /* color:var(--main-gray); */
-  color: #000;
+  color: black
 }
 
 img{
@@ -214,7 +214,6 @@ img{
   height: 90vh;
   padding: 2px, 2rem;
   background: var(--main-gray);
-
   border: 2px solid white;
 }
 
@@ -243,6 +242,7 @@ img{
   flex-wrap: wrap;
   margin-right: 10px;
   border: 2px solid white;
+  
 }
 
 .li{
@@ -252,13 +252,21 @@ img{
   /* line-height: 20px; */
   border: 2px solid rgb(87, 9, 233);
   align-items: center;
+  
 }
 
+.a-contact{
+  color: white;
+  /* padding-right: 30px; */
+  padding-left: 0px;
+  padding-bottom: ;
+}
 .logo{
   display: inline;
   height: 50px;
   width: 50px;
-  padding-top: 1px;
+  padding-top: px;
+  margin-bottom: -15px;
   align-items: center;
   border: 2px solid rgb(218, 18, 18);
   
@@ -268,8 +276,6 @@ img{
 .contact-details:hover {
   transform: translateY(8px);
 }
-
-
 
 
 footer {
